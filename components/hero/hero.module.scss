@@ -1,0 +1,32 @@
+.hero{
+
+    color: white;
+    height: 70vh;
+    text-align: center;
+  
+    .maintitle{
+        font-size: 3rem;
+        margin-top: 2em;
+        line-height: 3.3rem;
+        margin-bottom: .6em;
+    }
+  
+    .detail{
+        font-size: 1.3rem; 
+    }
+  }
+  
+  
+  
+  
+  @media only screen and (min-width: 920px) {
+  
+    .hero{
+        color: black;
+        width: 40%;
+        height: auto;
+        margin-bottom: 13em;
+    }
+  
+    
+  }

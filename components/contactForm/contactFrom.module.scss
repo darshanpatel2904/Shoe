@@ -1,0 +1,46 @@
+.container{
+    padding: 5px 20px 15px 20px;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+}
+
+.inputtext{
+    width: 70%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin: 10px;
+}
+
+.fieldset{
+    width: 70%;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 12px;
+
+}
+.mainheading{
+    text-align: center;
+    font-size: 1.66em;
+    margin-bottom: 2em;
+}
+.inputsubmit{
+    background-color: #4daea1;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+
+    &:hover{
+        background-color:aqua;
+    }
+
+}
+@media only screen and (min-width: 920px) { 
+    .mainheading{
+        margin-top: 13em;
+        text-align: center;
+        font-size: 1.66em;
+        margin-bottom: 2em;
+    }
+}
